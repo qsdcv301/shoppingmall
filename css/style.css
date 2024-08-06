@@ -592,3 +592,9 @@ footer {
         margin-bottom: 30px;
     }
 }
+
+/* detail page*/
+
+.product-image{
+    padding: 80px;
+}
