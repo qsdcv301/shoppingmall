@@ -595,6 +595,128 @@ footer {
 
 /* detail page*/
 
-.product-image{
-    padding: 80px;
+/* dtail top */
+
+.detail-main {
+    padding: 80px 20px;
+}
+
+.product-image {
+    text-align: center;
+}
+
+.detail-text-top {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #999;
+}
+
+.detail-text-top h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.detail-text-top p {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.detail-text-top p span,
+.detail-text-top p del {
+    font-size: 18px;
+}
+
+.detail-text-top p span {
+    float: right;
+}
+
+.detail-text-top p del {
+    color: #999;
+    margin-right: 10px;
+}
+
+.detail-text-top p:first-of-type {
+    font-size: 15px;
+    color: #999;
+}
+
+/* detail middle */
+
+.detail-text-middle {
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.detail-text-middle>div>a {
+    display: block;
+}
+
+.detail-text-middle p {
+    margin-bottom: 20px;
+}
+
+.detail-text-middle strong {
+    font-weight: 600;
+}
+
+.detail-text-middle span{
+    color: orangered;
+}
+
+.detail-text-middle form {
+    padding: 20px;
+}
+
+.detail-text-middle select {
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.color-select {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+/* detail bottom */
+
+.detail-text-bottom {
+    padding: 30px 25px;
+}
+
+.detail-text-bottom p {
+    font-size: 20px;
+    font-weight: 600;
+    vertical-align: middle;
+    margin-bottom: 40px;
+}
+
+.detail-text-bottom span {
+    float: right;
+    font-size: 25px;
+}
+
+.buy {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    background: rgba(255, 192, 203, 0.5);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.detail-btn {
+    border: 0.5px solid #999;
+    background: #fff;
+    height: 60px;
+    font-size: 18px;
+    width: 49%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.detail-text-bottom img{
+    width: 100%;
+    cursor: pointer;
 }
