@@ -25,6 +25,15 @@ colorRadios.forEach(radio => {
         thisColor.textContent = selectColor;
     });
 });
+
+colorRadios.forEach(radio => {
+    radio.addEventListener('change', function () {
+        if (this.checked) {
+            detailBox.style.display = "block";
+        }
+    });
+});
+
 // const sizeBox = document.querySelector(".size-box");
 // const sizeBoxArrow = document.querySelector(".size-box i");
 // const sizeSelect = document.querySelectorAll(".size-select");
@@ -95,3 +104,4 @@ options.forEach(option => {
         toggleIcon.classList.add("fa-angle-down");
     });
 });
+
