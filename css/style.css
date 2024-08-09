@@ -894,16 +894,16 @@ label.red {
     background: red;
 }
 
-label.blue{
+label.blue {
     background: blue;
 }
 
-label.white{
+label.white {
     background: white;
     border: 1px solid #333;
 }
 
-label.yellow{
+label.yellow {
     background: yellow;
     border: 1px solid #333;
 }
@@ -959,7 +959,43 @@ input[type=radio]:checked+label {
 .select-index3{
     top: 69px;
 } 자작*/
+.sbox {
+    position: relative;
+}
 
-.size-box{
-    
+.size-box {
+    border: 1px solid #999;
+    width: 350px;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+.size-box i {
+    float: right;
+}
+
+.size-box-detail {
+    width: 350px;
+    border: 1px solid #999;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background: #fff;
+    z-index: 2;
+    display: none;
+}
+
+.size-box-detail div {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.size-box-detail div:hover {
+    background: #333;
+    color: #fff;
+}
+
+.selected {
+    background: #333;
+    color: #fff;
 }

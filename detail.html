@@ -102,8 +102,17 @@
                         </li>
                         <li>
                             <label>사이즈</label><span></span>
-                            <div class="size-box">
-                                
+                            <div class="sbox">
+                                <div class="size-box" onclick="viewdetail()"><span>* [필수] 사이즈를 선택하세요.</span>
+                                    <i class="fa-solid fa-angle-down" id="toggle-icon"></i>
+                                </div>
+                                <div class="size-box-detail">
+                                    <div class="option" data-value="XS">*** XS ***</div>
+                                    <div class="option" data-value="S">*** S ***</div>
+                                    <div class="option" data-value="M">*** M ***</div>
+                                    <div class="option" data-value="L">*** L ***</div>
+                                    <div class="option" data-value="XL">*** XL ***</div>
+                                </div>
                             </div>
                             <!-- <div class="size-box">
                                 <span>사이즈 선택</span>
@@ -123,6 +132,7 @@
                     <div class="total-box">
 
                     </div>
+                    <input type="hidden" id="size" name="size">
                 </form>
             </div>
         </div>
