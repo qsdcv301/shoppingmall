@@ -776,3 +776,190 @@ footer {
     width: 100%;
     cursor: pointer;
 }
+
+/* detail we */
+
+.detail-hero {
+    background-color: #e8e8e8;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.img-box {
+    display: flex;
+}
+
+.s-img img {
+    max-width: 98.5px;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    box-sizing: content-box;
+    display: block;
+}
+
+.title-form h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.title-opt {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.title-opt::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 8px;
+    background: #000;
+    position: relative;
+    bottom: -20px;
+    margin-bottom: 40px;
+}
+
+.title-content {
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+}
+
+.detail-list {
+    margin: 30px 0;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.detail-list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.detail-list li>label {
+    display: inline-block;
+    width: 120px;
+}
+
+.detail-list li ins {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+
+.dwn {
+    color: rgba(212, 27, 67);
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.thiscolor {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.color-box label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label.black {
+    background: #000;
+}
+
+label.red {
+    background: red;
+}
+
+label.blue{
+    background: blue;
+}
+
+label.white{
+    background: white;
+    border: 1px solid #333;
+}
+
+label.yellow{
+    background: yellow;
+    border: 1px solid #333;
+}
+
+input[type=radio]:checked+label {
+    border: 2px solid #999;
+}
+
+/* .size-box{
+    width: 250px;
+    height: 25px;
+    border: 1px solid #999;
+    cursor: pointer;
+    position: relative;
+    padding: 2px;
+    text-align: center;
+}
+
+.size-box i{
+    float: right;
+    font-size: 20px;
+}
+
+.size-select{
+    width: 250px;
+    height: 25px;
+    border: 1px solid #999;
+    position: absolute;
+    left: -1px;
+    top: 25px;
+    text-align: center;
+    border-top: none;
+    padding: 4px 0;
+    display: none;
+}
+
+.size-select:hover{
+    background: #999;
+}
+.size-select label{
+    display: inline-block;
+
+}
+
+.select-index1{
+    top: 23px;
+}
+
+.select-index2{
+    top: 46px;
+}
+
+.select-index3{
+    top: 69px;
+} 자작*/
+
+.size-box{
+    
+}

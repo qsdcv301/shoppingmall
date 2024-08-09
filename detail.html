@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형웹</title>
     <link rel="stylesheet" href="css/reset.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+KR:wght@100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
 </head>
 
 <body>
@@ -38,97 +40,101 @@
             </div>
         </div>
     </header>
-    <section class="container">
-        <div class="row detail-main">
-            <div class="col-5">
-                <div class="product-image col-12">
-                    <img src="images/pd/001.gif" alt="001">
-                </div>
-                <div class="product-images col-12">
-                    <img src="images/pd/001.gif" alt="001">
-                    <img src="images/pd/002.gif" alt="002">
-                    <img src="images/pd/003.gif" alt="003">
-                    <img src="images/pd/004.gif" alt="004">
-                    <img src="images/pd/005.gif" alt="005">
-                    <img src="images/pd/006.gif" alt="006">
-                    <img src="images/pd/007.gif" alt="007">
-                    <img src="images/pd/008.gif" alt="008">
+    <div class="container">
+        <img src="images/top_banner.jpg" alt="banner" class="banner">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-m12">
+                <div class="img-box">
+                    <div class="b-img">
+                        <img src="images/pd/001.gif" alt="001">
+                    </div>
+                    <div class="s-img">
+                        <img src="images/pd/001.gif" alt="001" class="simg">
+                        <img src="images/pd/002.gif" alt="001" class="simg">
+                        <img src="images/pd/003.gif" alt="001" class="simg">
+                        <img src="images/pd/004.gif" alt="001" class="simg">
+                        <img src="images/pd/005.gif" alt="001" class="simg">
+                    </div>
                 </div>
             </div>
-            <div class="offset-1 col-6">
-                <div class="detail-text">
-                    <div class="detail-text-top">
-                        <p>OP10978</p>
-                        <h1>A라인 스모크소매 롱 셔츠 원피스</h1>
-                        <p><del>39,990원</del> 19,990원 <span>50%</span></p>
+            <div class="col-6 col-m12">
+                <form class="title-form">
+                    <h1>밸라 러블리원피스</h1>
+                    <p class="title-opt">[해외배송 가능상품]</p>
+                    <p class="title-content">간편하게 원피스 하나로 센스있는 그날의 스타일링 완성!
+                        너무 밋밋하지도 않으면서 너무 과하지 않은, 원피스 한장으로 멋내기 성공 :)
+                    </p>
+                    <ul class="detail-list">
+                        <li>
+                            <label>소비자가</label><span><del>69,000원</del></span>
+                        </li>
+                        <li>
+                            <label>판매가</label>
+                            <span><ins>29,900원</ins></span>
+                            <span class="dwn">57%</span>
+                        </li>
+                        <li>
+                            <label>배송비</label><span>3,000원 (50,000원 이상 구매시 무료)</span>
+                        </li>
+                        <li>
+                            <label>색상</label>
+                            <div class="color-v-box">
+                                <span class="thiscolor" id="thiscolor">검정</span>
+                                <div class="color-box">
+                                    <input type="radio" name="colors" class="colors" value="검정" id="black">
+                                    <label for="black" class="black"></label>
+
+                                    <input type="radio" name="colors" class="colors" value="빨강" id="red">
+                                    <label for="red" class="red"></label>
+
+                                    <input type="radio" name="colors" class="colors" value="파랑" id="blue">
+                                    <label for="blue" class="blue"></label>
+
+                                    <input type="radio" name="colors" class="colors" value="흰색" id="white">
+                                    <label for="white" class="white"></label>
+
+                                    <input type="radio" name="colors" class="colors" value="노랑" id="yellow">
+                                    <label for="yellow" class="yellow"></label>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <label>사이즈</label><span></span>
+                            <div class="size-box">
+                                
+                            </div>
+                            <!-- <div class="size-box">
+                                <span>사이즈 선택</span>
+                                <i class="ri-arrow-down-wide-line"></i>
+                                <div class="size-select select-index1">
+                                    <label for="">S</label>
+                                </div>
+                                <div class="size-select select-index2">
+                                    <label for="">M</label>
+                                </div>
+                                <div class="size-select select-index3">
+                                    <label for="">L</label>
+                                </div>  자작
+                            </div> -->
+                        </li>
+                    </ul>
+                    <div class="total-box">
+
                     </div>
-                    <div class="detail-text-middle">
-                        <div class="review d-flex">
-                            <p class="col-3">상품리뷰</p>
-                            <p class="col-9"><strong>7</strong> 건의 리뷰 보기</p>
-                        </div>
-                        <div class="savedMoney d-flex">
-                            <p class="col-3">적립금</p>
-                            <p class="col-9">350원 <a href="#">[최대 <span>5천원</span> 추가할인 받으려면?]</a></p>
-                        </div>
-                        <div class="delivery d-flex">
-                            <p class="col-3">배송비</p>
-                            <p class="col-9">총 결제금액이 50,000원 미만시 배송비 3,000원이 청구됩니다.</p>
-                        </div>
-                        <div class="card d-flex">
-                            <p class="col-3">카드사 혜택</p>
-                            <div class="col-9">
-                                <img src="images/details_card2.jpg" alt="카드사 무이자 할부">
-                                <img src="images/kcp8.jpg" alt="카드사 무이자 할부 설명">
-                            </div>
-                        </div>
-                        <div class="user d-flex">
-                            <p class="col-3">회원 혜택</p>
-                            <div class="col-9">
-                                <img src="images/benefit_2.jpg" alt="회원 혜택">
-                                <img src="images/benefit.jpg" alt="회원 혜택 설명">
-                            </div>
-                        </div>
-                        <form action="">
-                            <div class="color-select d-flex align-items-center">
-                                <label for="color" class="col-3">색상</label>
-                                <select name="detail-color" id="detail-color" class="col-9">
-                                    <option value="non-select">옵션선택</option>
-                                    <option value="pink">핑크</option>
-                                    <option value="khaki">연카키</option>
-                                    <option value="navy">네이비</option>
-                                </select>
-                            </div>
-                            <div class="size-select d-flex align-items-center">
-                                <label for="size" class="col-3">사이즈</label>
-                                <select name="detail-size" id="detail-size" class="col-9">
-                                    <option value="non-select">옵션선택</option>
-                                    <option value="free">F</option>
-                                </select>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="detail-text-bottom">
-                        <p>총 상품 금액<span>0원</span></p>
-                        <button type="button" class="buy">바로구매</button>
-                        <div class="detail-btns d-flex justify-content-between">
-                            <button type="button" class="detail-btn">장바구니</button>
-                            <button type="button" class="detail-btn">관심상품</button>
-                        </div>
-                        <img src="images/kakao_pc.jpg" alt="kakao_pc">
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
-    </section>
+    </div>
     <section class="customer container mt-60">
         <div class="row">
             <div class="col-4 col-m12">
                 <h1 class="customer-title caudex-bold">Customer Center</h1>
-                <p class="tel"><a href="tel:1500-4544">1500-4544</a></p>
+                <p class="big-text"><a href="tel:1500-4544">1500-4544</a></p>
                 <div class="text-text">
                     <p>전화상담 AM 10:00 ~ AM 10:01</p>
-                    <p>(게시판, 카카오톡 AM 09:00 ~ AM 09:01)</p>
+                    <p>(게시판, 카카오톡 AM 09:00 ~ AM 09: 01)</p>
                     <p>(토/일/공휴일/주중 휴무)</p>
                 </div>
             </div>
@@ -136,7 +142,7 @@
                 <h1 class="customer-title caudex-bold">Delivery</h1>
                 <p class="big-text">반품주소 (CJ대한통운 택배)</p>
                 <div class="text-text">
-                    <p>경기도 김포시 고촌읍 전호리 748 CJ대한통운 리더스대리점 내 패스트박스(뮬리안)</p>
+                    <p>경기도 김포시 고촌읍 전호리 748 CJ대한통운 리더스대리점 내 패스트박스(물리안)</p>
                 </div>
                 <button type="button">택배사 배송조회 바로가기</button>
             </div>
@@ -144,7 +150,7 @@
                 <h1 class="customer-title caudex-bold">Bank Info</h1>
                 <p class="big-text">예금주 : 주식회사 내옷닷컴</p>
                 <div class="text-text">
-                    <p>국민 01000-1212-12121 | 농협 : 312-1234-12345</p>
+                    <p>국민 : 01000-1212-12121 | 농협 : 312-1234-12345</p>
                     <p>우리 : 1234-12345-6454</p>
                 </div>
             </div>
@@ -166,9 +172,13 @@
             <img src="images/footer_escrow.jpg" alt="에스크로">
             <span>안전거래를 위해 KB에스크로의 구매안전(에스크로)에 가입하여 서비스를 제공하고 있습니다.</span>
         </div>
-        <p class="copyright">Copyright 2024 &copy; taehyeon all rights reserved.</p>
+        <p class="copyright">Copyright 2024 &copy; wein's all rights reserved.</p>
     </footer>
     <script src="js/sDetail.js"></script>
+</body>
+
+</html>
+
 </body>
 
 </html>
